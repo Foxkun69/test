@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎧 Đang Nghe Foxkun hát", "🎮 Đang Chơi Sextoy "];
+const statusMessages = ["🎧 Đang Nghe Foxkun hát", "🎮Đang Chơi GTA VI", "🛒Fox Store", "✨By Foxkun"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
